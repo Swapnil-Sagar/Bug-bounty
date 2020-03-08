@@ -1,0 +1,15 @@
+ Xross Site Scripting (XSS)
+ Reflected XSS:
+ Search bar | Login Page | Signup Page 
+ URL Parameter | You can try on any parameter
+ If you give input to any parameter and if they reflect back to you then there may be XSS
+ If your input reflect back and you suceed to execute any javascript code there then there is a xss
+ <script>alert1</script>
+ '<script>alert1</script> - if reflected output is in quotes
+ You cannot give input page manually, for this you use spider
+ (site:eu responsible disclosure) - to get subdoamins with parameters
+ "Always go for less travel road "
+ Sometimes you have to execute on path fragement as well as on the header
+ 
+ Parameter tampering:
+ (big crowd)
