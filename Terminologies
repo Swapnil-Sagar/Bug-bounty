@@ -1,0 +1,39 @@
+Injection Point - Where vulnarabilities can exists
+Vulnarabilities - a flaw or weakness of system
+Payload - Script or code that used to identify vilnarabilites
+Exploitation - Taking advantage of that vulnarabilities to gain system access
+
+
+Information
+1.Site (website or domain)
+2.Subdomains
+(virustotal.com)- to get subdomains
+
+3.You have to rank the subdomains by unpopularity
+4. Find ip address 
+  (ping any.com)  
+5.Which programming language is being used
+  -google
+  -site:subdomain.com
+  or in kali 
+  whatweb any.com [X-Powered-By ..lang...] 
+  
+  6. Open ports and services
+     nmap ip{normal scannig}
+     or if ping is blocked
+     nmap ip -Pn 
+     
+     or use Aggressive scanning
+     nmap ip -sV
+     
+     To Detailed information about target 
+     nmap ip | nmap -sC ip
+     
+  7. Server info
+    iis | apache |tomcat | nginix
+    whatweb any.com
+    
+    
+     
+     
+     
